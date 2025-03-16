@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "337580033677",
+    "project_id": "banking-dd84d",
+    "storage_bucket": "banking-dd84d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337580033677:android:8072d948bfd484e43584c4",
+        "android_client_info": {
+          "package_name": "com.arthurquinellato.banking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337580033677-7ugq4fam8feickibqbocm5v01n11a9c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arthurquinellato.banking",
+            "certificate_hash": "35fbe30962f6e79ca3d2250f27fc469c315a2fbf"
+          }
+        },
+        {
+          "client_id": "337580033677-bi007stf6fq2o0jnmju03kvv5pc27f3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzdUHUzw-bDXF1C4bMjKY9Mlw9hXa7H_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337580033677-bi007stf6fq2o0jnmju03kvv5pc27f3q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "337580033677-65m7p0vh8khu1lffatiucj0423sra6iu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.arthurquinellato.banking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

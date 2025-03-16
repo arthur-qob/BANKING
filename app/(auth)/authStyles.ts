@@ -36,11 +36,16 @@ const useStyles = (theme?: string) => {
 		button: {
 			padding: 10,
 			minWidth: '100%',
-			borderRadius: 10,
+			borderRadius: 5,
 			backgroundColor:
 				Platform.OS === 'ios'
 					? PlatformColor('systemBlue')
 					: 'rgb(10, 132, 255)',
+		},
+		btnText: {
+			fontSize: 20,
+			textAlign: 'center',
+			color: 'white',
 		},
 		text: {
 			fontSize: 20,
@@ -48,9 +53,7 @@ const useStyles = (theme?: string) => {
 			color:
 				Platform.OS === 'ios'
 					? PlatformColor('label')
-					: theme === 'light'
-					? 'black'
-					: 'white',
+					: Colors[theme as 'light' | 'dark'].text,
 		},
 		separator: {
 			width: '100%',

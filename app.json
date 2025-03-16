@@ -5,13 +5,15 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "com.arthurquinellato.banking",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arthurquinellato.banking"
     },
     "android": {
+      "package": "com.arthurquinellato.banking",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -36,6 +38,25 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "apiKey": "AIzaSyAH_o5yIw2d_AtJUt5SCryh1hLIaQ7c6MU",
+      "authDomain": "banking-dd84d.firebaseapp.com",
+      "projectId": "banking-dd84d",
+      "storageBucket": "banking-dd84d.firebasestorage.app",
+      "messagingSenderId": "337580033677",
+      "appId": "1:337580033677:web:9ca9f92389b63dfe3584c4",
+      "measurementId": "G-B9B36D2SXH",
+      "google_web_client_id": "337580033677-bi007stf6fq2o0jnmju03kvv5pc27f3q.apps.googleusercontent.com",
+      "google_ios_client_id": "337580033677-65m7p0vh8khu1lffatiucj0423sra6iu.apps.googleusercontent.com",
+      "google_android_client_id": "337580033677-7ugq4fam8feickibqbocm5v01n11a9c5.apps.googleusercontent.com",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1313f516-269f-4efa-8456-370e5c466339"
+      }
+    },
+    "owner": "arthur-quinellato"
   }
 }

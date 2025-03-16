@@ -109,6 +109,13 @@ export default function SignupScreen() {
 				</TouchableOpacity>
 			</View>
 
+			<TouchableOpacity
+				style={styles.button}
+				// onPress={handleSignup}
+			>
+				<Text style={styles.btnText}>Sign Up</Text>
+			</TouchableOpacity>
+
 			<View style={styles.separator}>
 				<View style={styles.separatorLines} />
 				<Text style={[styles.text, styles.separatorText]}>OR</Text>
@@ -117,8 +124,8 @@ export default function SignupScreen() {
 
 			<Ionicons.Button
 				name='logo-google'
-				style={styles.button}>
-				<Text style={styles.text}>Continue with Google</Text>
+				style={{ ...styles.button }}>
+				<Text style={styles.btnText}>Continue with Google</Text>
 			</Ionicons.Button>
 		</Div>
 	)

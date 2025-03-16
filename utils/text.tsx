@@ -1,0 +1,1 @@
+import * as AuthSession from 'expo-auth-session'; const signin = async () => { const redirectUri = AuthSession.getRedirectUrl(); const response = await AuthSession.startAsync({ authUrl: https:`//accounts.google.com/o/oauth2/auth?client_id=${EXPO_CLIENT_ID}&redirect_uri=${redirectUri}&response_type=token&scope=openid%20profile%20email` }); };
